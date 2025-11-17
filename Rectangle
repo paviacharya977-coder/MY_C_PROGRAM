@@ -1,0 +1,22 @@
+PROGRAM 8 : Write a program that Calculate the area of rectangle given lenth and width
+
+#include<stdio.h>
+int main()
+{
+float length ,width,area;
+printf("enter the length of the rectangle");
+scanf("%f",&length);
+printf("enter the width of the rectangle");
+scanf("%f",&width);
+area =length*width;
+printf ("the area of the rectangle is %.2f\n",area);
+return 0;
+}
+
+
+OUTPUT 
+enter the length of the rectangle6
+enter the width of the rectangle8
+the area of the rectangle is 48.00
+
+[Process completed - press Enter]
