@@ -1,0 +1,26 @@
+PROGRAM : Identify the Error in this c program and correct it
+#include<stdio.h>
+int main
+{
+printf("Hello world");
+return 0;
+}
+
+
+
+default.c:2:9: error: expected ';' after top level declarator
+int main
+        ^
+        ;
+1 error generated.
+
+
+#include<stdio.h>
+int main()
+{
+printf("Hello world");
+return 0;
+} 
+
+Output 
+Hello world 
