@@ -1,0 +1,16 @@
+Program 4 Write a c program to print name , address and age 
+#include<stdio.h>
+int main()
+{
+printf("Name=Pavi\n");
+printf("Age = 17\n");
+printf("location= Hassan,Karnataka");
+return 0 ;
+}
+
+
+    Output
+Name=Pavi
+Age = 17
+location= Hassan,Karnataka
+[Process completed - press Enter]
