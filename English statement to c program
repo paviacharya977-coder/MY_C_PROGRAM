@@ -1,0 +1,23 @@
+PROGRAM 12 : Convert the following english statment into a c program"ask the user for their name and age , then print : hello<name>you are <age>years old"
+
+#include<stdio.h>
+int main()
+{
+char name [50];
+int age ;
+printf (" enter your name : ");
+scanf("%s",name );
+printf ("enter your age : ");
+scanf("%d",&age );
+printf("Hello % s, you are % d years old .\n",name ,age);
+
+}
+
+
+OUTPUT 
+
+enter your name : Pavi
+enter your age : 17
+Hello Pavi, you are  17 years old .
+
+[Process completed - press Enter]
