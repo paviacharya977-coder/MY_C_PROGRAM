@@ -1,0 +1,28 @@
+PROGRAM 6: Write a c program that reads an integer and float value and displays them 
+
+#include<stdio.h>
+int main()
+{
+int number;
+float value ;
+printf("Enter an integer");
+scanf("%d",&number);
+
+printf("Enter a float value");
+scanf("%f",& value );
+printf("\n---output---\n");
+printf("integer : %d\n",number);
+printf("float:%.2f\n",value);
+return 0 ; 
+}
+
+
+OUTPUT 
+Enter an integer28
+Enter a float value28
+
+---output---
+integer : 28
+float:28.00
+
+[Process completed - press Enter]
