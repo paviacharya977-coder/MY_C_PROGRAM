@@ -1,0 +1,12 @@
+PROGRAM 1 : Write a c program to add two integer numbers
+
+#include<stdio.h>
+int main()
+{
+    int a,b,sum;
+    printf("enter two numbers");
+    scanf("%d%d",&a,&b,sum);
+    sum=a+b;
+    printf("sum=%d\n",sum);
+}
+
