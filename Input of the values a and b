@@ -1,0 +1,23 @@
+PROGRAM 10 : Modify the program below to also take user input for the value of a and b 
+int a=10,b=20
+printf("sum=%d",a+b);
+
+#include<stdio.h>
+int main()
+{
+int a,b;
+printf("enter value of a");
+scanf("%d",&a);
+printf("enter the value of b");
+scanf("%d",&b);
+printf("sum=%d\n",a+b);
+return 0;
+}
+
+
+OUTPUT 
+enter value of a10
+enter the value of b20
+sum=30
+
+[Process completed - press Enter]
