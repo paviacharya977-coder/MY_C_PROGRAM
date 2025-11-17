@@ -1,0 +1,18 @@
+PROGRAM 9 : Write a program that takes a character input from the user and prints its ASCII value
+
+#include<stdio.h>
+int main()
+{
+char ch ;
+printf("enter a character ");
+scanf("%c",&ch);
+printf("the ASCII value of '%c'is: %d\n",ch,ch);
+return 0;
+}
+
+
+OUTPUT 
+enter a character 2
+the ASCII value of '2'is: 50
+
+[Process completed - press Enter]
