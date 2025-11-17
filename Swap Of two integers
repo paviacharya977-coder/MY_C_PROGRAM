@@ -1,0 +1,31 @@
+PROGRAM 11: Create a simple program to swap two integers
+
+#include<stdio.h>
+int main()
+{
+int a,b;
+printf("enter first number (a):");
+scanf ("%d",&a);
+printf("enter second number (b):");
+scanf("%d",&b);
+
+a=a+b;
+a=a-b;
+b=a-b;
+
+printf("\n after swapping :\n");
+printf("a=%d\n",a);
+printf("b=%d\n",b);
+return 0;
+}
+
+
+OUTPUT 
+enter first number (a):28
+enter second number (b):46
+
+ after swapping :
+a=28
+b=-18
+
+[Process completed - press Enter]
