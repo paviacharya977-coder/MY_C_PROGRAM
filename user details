@@ -1,0 +1,15 @@
+#include<stdio.h>
+int userdetails(){
+    printf("my name is Pavi\n");
+    printf("my age is 17\n");
+    printf("my department CSE\n");
+}
+int main(){
+    userdetails();
+}
+
+
+OUTPUT
+my name is Pavi
+my age is 17
+my department CSE
