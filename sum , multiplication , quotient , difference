@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() {
+    float num1, num2;
+    
+    printf("Enter two numbers: ");
+    scanf("%f %f", &num1, &num2);
+
+    printf("Sum = %.2f\n", num1 + num2);
+    printf("Difference = %.2f\n", num1 - num2);
+    printf("Product = %.2f\n", num1 * num2);
+
+    if (num2 != 0) {
+        printf("Quotient = %.2f\n", num1 / num2);
+    } else {
+        printf("Quotient = Not possible (division by zero)\n");
+    }
+
+    return 0;
+}
+
+
+OUTPUT
+Enter two numbers: 2 4
+Sum = 6.00
+Difference = -2.00
+Product = 8.00
+Quotient = 0.50
