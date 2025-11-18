@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int number = 10;
+
+    if (number > 0) {
+        printf("Number is positive");
+    } else {
+        printf("Number is zero or negative");
+    }
+
+    return 0;
+}
+
+Output
+ Clear 
+Number is positive
+
+
