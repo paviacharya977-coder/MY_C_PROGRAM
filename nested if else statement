@@ -1,0 +1,39 @@
+ #include <stdio.h>
+
+int main() {
+    int num;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    if (num >= 0) {  
+        // First level
+        printf("The number is positive.\n");
+
+        if (num % 2 == 0) {  
+            // Nested inside positive
+            printf("It is even.\n");
+        } else {
+            printf("It is odd.\n");
+        }
+
+    } else {  
+        // First level else
+        printf("The number is negative.\n");
+
+        if (num % 2 == 0) {  
+            // Nested inside negative
+            printf("It is even.\n");
+        } else {
+            printf("It is odd.\n");
+        }
+    }
+
+    return 0;
+}
+
+
+OUTPUT
+Enter a number: 28
+The number is positive.
+It is even.
