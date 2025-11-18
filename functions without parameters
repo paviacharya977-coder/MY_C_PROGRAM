@@ -1,0 +1,15 @@
+#include<stdio.h>
+int shreeram(){
+    printf("hanuman\n");
+    printf("seetha\n");
+    printf("ravana\n");
+}
+int main(){
+    shreeram();
+}
+
+
+    OUTPUT
+hanuman
+seetha
+ravana
