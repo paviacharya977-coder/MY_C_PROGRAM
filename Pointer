@@ -1,10 +1,26 @@
 #include <stdio.h>
+
 int main() {
-    char ch;
-    char *p;
-    printf("Enter a character: ");
-    scanf(" %c", &ch);  
-    p = &ch;           
-    printf("The entered character is: %c\n", *p);
+    int a = 10;
+    int *p;
+
+    p = &a; 
+
+    printf("Value of a: %d\n", a);
+    printf("Address of a: %p\n", &a);
+    printf("Pointer p holds address: %p\n", p);
+    printf("Value pointed by p: %d\n", *p);
+
     return 0;
 }
+
+
+
+OUTPUT
+Value of a: 10
+Address of a: 0x7ff07665f8
+Pointer p holds address: 0x7ff07665f8
+Value pointed by p: 10
+
+[Process completed - press Enter]
+
