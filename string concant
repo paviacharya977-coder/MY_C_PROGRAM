@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<string.h>
+int main(){
+    char pavi[10];
+    printf("enter your string\n");
+    scanf("%s",&pavi);
+    printf("after concant %s\n",pavi);
+    strcat(pavi,"sinchu");
+    printf("after concant %s\n",pavi);
+}
+
+OUTPUT
+enter your string
+pavi
+after concant pavi
+after concant pavisinchu
