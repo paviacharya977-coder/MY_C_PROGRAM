@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main(){
+    int* p=(int*)malloc(4);
+    *p=10;
+    printf("value=%p\n",*p);
+    free(p);
+}
+
+OUTPUT
+value=0xa
