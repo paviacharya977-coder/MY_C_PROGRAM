@@ -1,0 +1,13 @@
+#include<stdio.h>
+enum level{
+LOW=1,
+MEDIUM=5,
+HIGH=3
+};
+int main (){
+enum level l=MEDIUM;
+printf("%d",1);}
+
+OUTPUT
+1
+[Process completed - press Enter]
