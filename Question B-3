@@ -1,0 +1,33 @@
+#include<stdio.h>
+int main(){
+    int b,p;
+    printf("Branches");
+    scanf("%d",b);
+    printf("products");
+    scanf("%d",p);
+    
+    int ship[b][p];
+    float rev[p],total[b];
+     for (int i=0;i<b;i++)
+     for (int j=0;j<p;j++){
+         printf("Branch%d product%d units",i+1,j+1);
+         scanf("%d",&ship[i][j]);
+     }
+          for (int j=0;j<p;j++){
+         printf("Revenue per unit(Product%d)",j+1);
+         scanf("%f",&rev[j]);
+          }
+          for(int i=0;i<b;i++){
+              total[i]=0;
+              for(int j=0;j<p;j++)
+              total[i]+=ship[i][j]*rev[j];
+              printf("Branch%d Revenue%.2f\n",i+1,total[i]);
+          }
+     
+}
+
+OUTPUT
+Branchesrevenue
+products
+
+=== Code Execution Successful ===
