@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main(){
+union Pavi {
+int age;
+float mark;
+};
+union Pavi p;
+p.age=17;
+printf("%d\n",p.age);
+p.mark=28.5;
+printf("%f\n",p.mark);
+printf("%d\n",p.age);
+}
+
+
+Output
+17
+28.500000
+1105461248
+
+[Process completed - press Enter]
