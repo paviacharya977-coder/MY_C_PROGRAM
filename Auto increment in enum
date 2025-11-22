@@ -1,0 +1,15 @@
+#include<stdio.h>
+enum Numbers{
+A=5,
+B,
+C=27,
+D
+};
+int main (){
+enum Numbers n = D;
+printf("%d",D);
+}
+
+OUTPUT
+28
+[Process completed - press Enter]
