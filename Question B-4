@@ -1,0 +1,40 @@
+#include <stdio.h>
+int main() {
+    char first[50], last[50], full[100];
+    int i, j, length = 0;
+    printf("Enter First Name: ");
+    scanf("%s", first);
+    printf("Enter Last Name: ");
+    scanf("%s", last);
+    i = 0;
+    while (first[i] != '\0') {
+        full[i] = first[i];
+        i++;
+    }
+    full[i] = ' ';
+    i++;
+    j = 0;
+    while (last[j] != '\0') {
+        full[i] = last[j];
+        i++;
+        j++;
+    }
+    full[i] = '\0';
+    i = 0;
+    while (full[i] != '\0') {
+        length++;
+        i++;}
+    printf("\nFull Name: %s", full);
+    printf("\nLength of Full Name: %d\n", length);}
+
+
+
+OUTPUT
+Enter First Name: Pavi
+Enter Last Name: Sinchu
+
+Full Name: Pavi Sinchu
+Length of Full Name: 11
+
+
+=== Code Execution Successful ===
